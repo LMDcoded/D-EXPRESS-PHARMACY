@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+}
+
+.headercontainer{
+    width: 100%;
+    background-image: url(images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+}
+
+li{
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+header button{
+    border-radius: 50px;
+    background: #1BC768;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: .5rem 2rem;
+border: none;
+cursor: pointer;
+}
+
+.headerlogo img{
+    cursor: pointer;
+}
+
+.hero{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.heroImage img{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.heroImage{
+    width: 40%;
+}
+
+.heroText{
+    width: 40%;
+}
+
+.heroText h2{
+color: #FFF;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.heroText p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2rem 0;
+}
+
+.heroBtn button{
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    padding: .5rem 2rem;
+    margin-right: 1rem;
+}
+
+.heroBtn button:hover{
+cursor: pointer;
+background: white;
+color: #043CAA;;
+}
+
+::placeholder{
+    color: #7A7A7A;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.heroInput{
+    margin-top: 2rem;
+}
+
+.heroInput input{
+    border-radius: 50px 0 0 50px;
+    background: #DEE9FF;
+    padding: .8rem 3rem;
+    width: 375px;
+    border: none;
+    background-image: url(images/mdi_search.png);
+    background-position:5%;
+    background-repeat:no-repeat;
+    
+}   
+
+
+.heroInput button{
+    background: #1BC768;
+    border-radius: 0 50px 50px 0;
+    padding: .4rem;
+    border: none;
+    color: #FFF;
+    font-family: Monteserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    margin-left: -4px;
+    height: 43px;
+
+}
+
+
+
