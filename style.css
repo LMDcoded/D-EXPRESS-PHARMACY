@@ -163,5 +163,34 @@ color: #043CAA;;
 
 }
 
+.affiliations{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+
+.lines{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.line1 hr{
+width: 45px;
+height: 5px;
+flex-shrink: 0;
+background: #043CAA;
+}
+
+.line2 hr{
+    width: 45px;
+height: 5px;
+flex-shrink: 0;
+background: #1BC768
+}
+
+.sponsors img{
+    margin-right: 7rem;
+}
 
 
