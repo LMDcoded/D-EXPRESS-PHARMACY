@@ -16,7 +16,7 @@
     background-image: url(images/Rectangle\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 header{
@@ -163,9 +163,23 @@ color: #043CAA;;
 
 }
 
+.innerContainer{
+    width: 90%;
+    margin: auto;
+}
+
 .affiliations{
     text-align: center;
     margin: 4rem 0;
+}
+
+.affiliations h2{
+color: #043CAA;
+font-family: Avenir;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
 }
 
 
@@ -189,8 +203,338 @@ flex-shrink: 0;
 background: #1BC768
 }
 
-.sponsors img{
-    margin-right: 7rem;
+.sponsors{
+    /* margin-right: 7rem; */
+    display: flex;
+    gap: 9rem;
+    width: 50%;
+    margin: auto;
+
 }
+
+.benefits{
+    text-align: center;
+}
+.benefits h2{
+color: #043CAA;
+text-align: center;
+font-family: Avenir;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+
+.benefitText h5{
+    color: #043CAA;
+    font-family: Monteserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.listFlex{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.listFlex p{
+color: #333;
+font-family: Monteserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.benefitFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefitBtn{
+    margin-top: 1rem;
+}
+
+.benefitBtn button{
+border-radius: 50px;
+border: 1px solid #1BC768;
+display: inline-flex;
+padding: 11px 35px;
+align-items: center;
+gap: 10px;
+color: #1BC768;
+font-family: Monteserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: none;
+cursor: pointer;
+}
+
+.client{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+.clientImage{
+    width: 50%;
+}
+
+
+.clientText{
+    width: 40%;
+}
+
+.clientText h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.clientText p{
+    color: #7A7A7A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    width: 75%;
+}
+
+.clientText h6{
+    color: #043CAA;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    padding: 1.5rem 0;
+}
+
+
+.liness{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-left: -9rem;
+}
+
+footer{
+    width: 100%;
+    background:#043CAA;
+    }
+    
+    .innerfooter{
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    
+    }
+    
+    .textinput{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .textside{
+      width: 50%;
+    
+    }
+    
+    .inputside{
+      width: 45%;
+    }
+    
+    
+    .textside h3{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+      }
+      
+      .textside p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 80%;
+        margin-top: 1.5rem;
+      
+      
+      }
+      
+    
+    .inputside input {
+      border-radius: 50px 0 0 50px;
+      background: #dee9ff;
+      padding-left: 2rem;
+      width: 350px;
+      height: 38px;
+      border: none;
+      font-size: 18px;
+      font-family: montserrat;
+      margin-top: 1rem;
+    }
+    
+    .inputside label{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      }
+      
+      
+    
+    .inputside button {
+      background: #1bc768;
+      border-radius: 0 50px 50px 0;
+      color: #fff;
+      border: none;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      cursor: pointer;
+      width: 120px;
+      height: 39px;
+      margin-left: -4px;
+      /* margin-top: 3rem; */
+      background-image: url(./images/search.png);
+    }
+    
+    .footercontent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 6rem;
+    align-items: center;
+    }
+    
+    .logoside{
+    width: 30%;
+      
+    }
+    
+    
+    .footerside{
+      display: flex;
+      gap: 6rem;
+      width: 55%;
+    }
+    
+    
+    .logoside p{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 1rem; 
+      width: 60%;
+      
+    }
+    
+    .foot h5{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 40px;  
+    }
+    
+    .foot p{
+      color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    
+    }
+    
+    
+    .copyright{
+      color: #FFF;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+     text-align: center; 
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+    
+    }
+
+
+@media screen and (max-width: 1024px){
+
+    .heroText{
+        width: 55%;
+    }
+
+    .heroText h2{
+        font-size: 40px;
+        }
+        
+        .heroText p{
+            font-size: 18px;
+        }
+        
+        .sponsors{
+            display: flex;
+            gap: 7rem;
+            width: 65%;
+            margin: auto;
+        
+        }
+
+        .inputside input{
+            width: 250px;
+        }
+
+        .inputside button{
+            width: 100px;
+        }
+
+        .footerside{
+            display: flex;
+            gap: 6rem;
+            width: 60%;
+          }
+          
+}
+
+
+
+
+
+
+
+
 
 
