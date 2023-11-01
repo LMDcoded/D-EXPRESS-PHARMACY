@@ -290,6 +290,10 @@ cursor: pointer;
     width: 50%;
 }
 
+.clientImage img{
+    width: 100%;
+}
+
 
 .clientText{
     width: 40%;
@@ -525,8 +529,128 @@ footer{
             display: flex;
             gap: 6rem;
             width: 60%;
-          }
-          
+          }          
+}
+
+@media screen and (max-width: 768px){
+    header button,ul{
+        display: none;
+    }
+
+    .heroText h2{
+        font-size: 30px;
+    }
+
+    .heroText p{
+        font-size: 14px;
+    }
+
+    .heroBtn button{
+        font-size: 14px;
+        padding: .5rem 1.5rem;
+        margin-right: .7rem;
+    }
+
+    .heroInput input{
+       width: 270px;
+       padding: .8rem 2rem;
+    }
+
+    .heroInput button{
+       font-size: 14px;
+       width: 100px;
+    }
+
+    ::placeholder{
+    font-size: 14px;  
+    }
+
+    .affiliations h2{
+        font-size: 30px;
+    }
+
+    .sponsors{
+        width: 80%;
+        gap: 4rem;
+    }
+
+    .benefits h2{
+        font-size: 30px;
+    }
+
+    .benefitText h5{
+        font-size: 20px;
+    }
+
+    .listFlex p{
+        font-size: 13px;
+    }
+
+    .benefitBtn button{
+        font-size: 14px;
+    }
+
+    .benefitImage img{
+        width: 100%;
+    }
+
+    .benefitImage2 img{
+        width: 80%;
+    }
+
+    .clientText h2{
+        font-size: 23px;
+    }
+    
+    .clientText p{  
+        font-size: 18px;
+        width: 75%;
+    
+    
+    }
+
+    .clientText h6{
+        font-size: 14px;
+    }
+
+    .liness{
+        margin-left: -4rem;
+    }
+
+    .textside h3{
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .textside p{
+        font-size: 14px;
+        width: 85%;
+    }
+
+.inputside input{
+    width: 180px;
+    font-size: 14px ;
+    padding-left: 1rem;
+
+}
+
+.inputside button{
+    font-size: 14px;
+    width: 90px;
+}
+
+.inputside label{
+    font-size: 14px;
+}
+
+.footerside{
+    width: 65%;
+    gap: 3rem;
+}
+
+.logoside p{
+    width:100% ;
+}    
 }
 
 
