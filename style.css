@@ -215,6 +215,7 @@ background: #1BC768
 .benefits{
     text-align: center;
 }
+
 .benefits h2{
 color: #043CAA;
 text-align: center;
@@ -253,6 +254,12 @@ line-height: normal;
 }
 
 .benefitFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefitFlex2{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -651,6 +658,126 @@ footer{
 .logoside p{
     width:100% ;
 }    
+}
+
+@media screen and (max-width:426px) {
+    .hero{
+        width: 90%;
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .heroText{
+        width: 90%;
+        margin-top: 2rem;
+    }
+
+    .heroText h2{
+        font-size: 35px;
+    }
+
+    .heroText p{
+        font-size: 14px;
+        padding: 2rem 0;
+    }
+
+    .heroBtn button{
+        font-size: 14px;
+        padding: .5rem 1.3rem;
+        margin-right: .5rem;
+    }
+
+    .heroInput input{
+        width: 240px;
+    }
+
+    .heroImage{
+        width: 100%;
+    }
+
+    .sponsors{
+        width: 100%;
+        gap: .5rem;
+    }
+
+    .sponsors img{
+        width: 90%;
+    }
+
+    .benefitFlex{
+        display: block;
+    }
+
+    .benefitFlex2{
+        flex-direction: column-reverse;
+        margin-left: -6rem;
+        margin-bottom: 2rem;
+    }
+
+    .benefitImage2{
+        margin-top: 2rem;
+        width: 60%;
+        margin-left: 6rem;
+    }
+
+    .listFlex{
+        width: 100%;
+    } 
+
+    .benefitImage2 img{
+        width: 100%;
+    }
+
+    .client{
+        flex-direction: column-reverse;
+    }
+
+    .clientText{
+        font-size: 28px;
+        width: 300px;
+    }
+
+    .clientText p{
+        width: 100%;
+    }
+
+    .clientImage{
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .textinput{
+        display: block;
+    }
+
+    .textside{
+        width: 100%;
+    }
+
+    .inputside{
+        width: 100%;
+    }
+
+    .footercontent{
+        display: block;
+    }
+
+    .logoside{
+        width: 100%;
+    }
+
+    .footerside{
+        display: block;
+        margin: 2rem;
+        margin-left: .5rem;
+    }
+
+    .foot{
+        margin-bottom: 2rem;
+    }
+
+
+
 }
 
 
