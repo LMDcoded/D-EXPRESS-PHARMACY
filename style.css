@@ -777,6 +777,26 @@ footer{
     }
 
 
+} 
+
+@media screen and (max-width: 376px) {
+    .heroText h2{
+        font-size: 30px;
+    }
+
+    .heroBtn button{
+        font-size: 12px;
+        margin-right: .3rem;
+
+    }
+
+    .heroInput input{
+        width: 203px;
+    }
+
+    ::placeholder{
+        font-size: 11px;
+    }
 
 }
 
