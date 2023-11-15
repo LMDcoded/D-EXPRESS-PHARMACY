@@ -798,6 +798,56 @@ footer{
         font-size: 11px;
     }
 
+    .benefitText{
+        margin-left: 3rem;
+    }
+
+    .copyright p{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+    
+    .heroText h2{
+        font-size: 25px;
+    }
+
+    .heroBtn button{
+        font-size: 9px;
+        margin-right: .1rem;
+    }
+
+     .heroInput{
+        width: 115%;
+     }
+
+     .heroInput input{
+        width: 60%;
+     }
+
+     .heroInput button{
+        width: 26%;
+        font-size: 9px;
+     }
+
+     ::placeholder{
+        font-size: 9px;
+     }
+
+     .inputside{
+        width: 120%;
+     }
+
+     .inputside input{
+        width: 52%;
+     }
+
+    .benefitText h5{
+        font-size: 16px;
+    }
+
 }
 
 
