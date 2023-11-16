@@ -815,9 +815,13 @@ footer{
     }
 
     .heroBtn button{
-        font-size: 9px;
-        margin-right: .1rem;
-    }
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    font-size: 12px;
+    padding: .3rem .8rem;
+    margin-right: .5rem;
+}
+
 
      .heroInput{
         width: 115%;
