@@ -110,7 +110,7 @@ line-height: normal;
     line-height: normal;
     background: none;
     padding: .5rem 2rem;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .heroBtn button:hover{
@@ -137,7 +137,7 @@ color: #043CAA;;
     border-radius: 50px 0 0 50px;
     background: #DEE9FF;
     padding: .8rem 3rem;
-    width: 375px;
+    width: 320px;
     border: none;
     background-image: url(images/mdi_search.png);
     background-position:5%;
@@ -398,7 +398,7 @@ footer{
       border-radius: 50px 0 0 50px;
       background: #dee9ff;
       padding-left: 2rem;
-      width: 350px;
+      width: 320px;
       height: 38px;
       border: none;
       font-size: 18px;
